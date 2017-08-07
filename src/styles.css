@@ -1,0 +1,41 @@
+h1 {
+   color: #666666;
+   font-family: calibri;
+}
+
+.tooltip {   
+  position: absolute;           
+  text-align: left;
+  margin:0;
+  padding: 10px 10px;  
+  font: 12px sans-serif;   
+  font-family: calibri;     
+  background: rgba(218,218,218,0.75);   
+  pointer-events: none; 
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+.chordGroup-tick line {
+  stroke: #000;
+}
+
+.chordGroup-tick text {
+  font: 10px sans-serif;
+  font-weight: bold;
+  fill: #666666;
+}
+
+.chordRibbon {
+  opacity: 0.5;
+}
+
+.chordRibbon:hover {
+  opacity: 0.9;
+}
