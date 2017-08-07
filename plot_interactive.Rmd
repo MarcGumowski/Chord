@@ -1,5 +1,4 @@
 ---
-title: "Chord Diagram"
 author: "Marc Gumowski"
 categories:
 - JavaScript
