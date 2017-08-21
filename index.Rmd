@@ -66,6 +66,6 @@ cat(
 '<script src="src/d3v4/d3.min.js"></script>
 <script src="src/chordDiagramInteractive.js"></script>
 # ')
-
 ```
+<p> The outer radius of each regions represents the amount of imports. The ribbons between the regions represent the trade exchanges, they are colored in the color of the region that imports the most. </p>
 </body></html>
