@@ -11,7 +11,7 @@
 // This script has to be loaded in the main file.
 
 var margin = { top: 50, left: 50, right: 50, bottom: 50 };
-var rescale = 1.4;
+var rescale = 1.25;
 var width = 480 * rescale - margin.left - margin.right;
 var height = 480 * rescale - margin.top - margin.bottom;
 var outerRadius = Math.min(width, height) * 0.5 - 40,
